@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Starter Kit</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <h1 id='madlibHeader'>Madlib Exercise</h1>
+    <form id='myMadlib'>
+        <fieldset>
+            <legend>
+                Please fill out the following:
+            </legend>
+            <label id="stylized" >Name:
+                <input type="text" id="username" placeholder="Please enter a Name" />
+            </label>
+            <label id="stylized">Adjective:
+                <input type="text" id="firstAdjective" placeholder="Please enter an Adjective"/>
+            </label>
+            <label id="stylized">Noun:
+                <input type="text" id="firstNoun" placeholder="Please enter a Noun"/>
+            </label>
+            <label id="stylized">Verb:
+                <input type="text" id="firstVerb" placeholder="Please enter a Verb not ending in -ing"/>
+            </label>
+            <button type="click" id="submitMadlib">Submit</button>
+        </fieldset>
+    </form>
+    <div id="story"></div>
+</body>
+
+<script src="js/index.js"></script>
+</html>
